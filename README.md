@@ -28,9 +28,9 @@ public class Pizza{
 
 </code>
 </pre>
-<br>
+
 Create public static inner class named PizzaBuilder inside Pizza class that correspond the next class diagram:
-<br>
+
 <pre>
                 PizzaBuilder
 - pizza: Pizza
@@ -46,7 +46,7 @@ Create public static inner class named PizzaBuilder inside Pizza class that corr
 ############ Task 2 ############
 <pre>
 Suppose we have the next class:
-<br>
+
 <code>
 class NameList{
     
@@ -57,9 +57,8 @@ class NameList{
     }
 }
 </code>
-<br>
 Create public inner class named Iterator inside NameList class that correspond the next class diagram:
-<br>
+
 <code>
                   Iterator
 - counter: int = 0
