@@ -149,3 +149,4 @@ Sorting at first be by firstName field, and if the names match then by lastName 
 The next() method from AddressBookIterator class should return record as String in next format: "First name: <first name>, Last name: <last name>, Address: <address>".
 Records in the Address Book must be ordered according to date of creation.
 A class hierarchy should be correspond the next class diagram:
+<img src = "task6.png">
