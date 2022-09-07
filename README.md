@@ -40,6 +40,25 @@ Create public static inner class named PizzaBuilder inside Pizza class that corr
 
 </pre>
 ############ Task 2 ############
+<pre>
+Suppose we have the next class:
+<code>
+class NameList{
+    
+    private String[] names = {"Mike","Emily","Nick","Patric","Sara"};
+    
+    public Iterator getIterator(){
+        return new Iterator();
+    }
+}
+</code>
+Create public inner class named Iterator inside NameList class that correspond the next class diagram:
+                  Iterator
+- counter: int = 0
+- Iterator()
++ hasNext():boolean //returns true if the next element exist in the list,otherwise returns false
++ next(): String //return current element and add 1 to counter
+</pre>
 ############ Task 3 ############
 ############ Task 4 ############
 ############ Task 5 ############
