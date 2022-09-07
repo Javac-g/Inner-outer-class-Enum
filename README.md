@@ -1,7 +1,7 @@
 # Inner-outer-class-Enum-
 Practice tasks.
 
-############ Task 1 ############
+$${\color{lightgreen}Task \space 1 }$$
  
 <pre>
 Suppose we have the next class:
@@ -43,7 +43,8 @@ Create public static inner class named PizzaBuilder inside Pizza class that corr
 + build():Pizza
 
 </pre>
-############ Task 2 ############
+
+$${\color{lightgreen}Task \space 2 }$$
 
 
 <pre>
@@ -69,7 +70,8 @@ Create public inner class named Iterator inside NameList class that correspond t
 + next(): String //return current element and add 1 to counter
 </code>
 </pre>
-############ Task 3 ############
+ 
+ $${\color{lightgreen}Task \space 3 }$$
 
 
 <pre>
@@ -99,7 +101,8 @@ Subtract b from a   \\   (a - b)
 Multiply a by b   \\   (a * b)
 Divide a by b   \\   (a / b)
 </pre>
-############ Task 4 ############
+
+$${\color{lightgreen}Task \space 4 }$$
 
 
 Create a LineType enum that contains different kind of lines as constants SOLID, DOTTED, DASHED and DOUBLE.
@@ -111,7 +114,7 @@ Where <LineType>  is name of type wrote in lower case.
 For example: The line is dotted type.
  
  
-############ Task 5 ############
+$${\color{lightgreen}Task \space 5 }$$
  
  
 Create ClientType enum that contains NEW, SILVER, GOLD and PLATINUM constants that represent client status.
@@ -146,7 +149,8 @@ Override discount() method for each constant and return discount value that calc
           PLATINUM                               (100 - <count of months> * 0,35) / 100
 
 </pre>
-############ Task 6 ############
+
+$${\color{lightgreen}Task \space 6 }$$
 
 
 Create class hierarchy that represent Address Book, where can be save records in format: "(first name, last name) => address":
