@@ -96,5 +96,28 @@ Multiply a by b   \\   (a * b)
 Divide a by b   \\   (a / b)
 </pre>
 ############ Task 4 ############
+Create a LineType enum that contains different kind of lines as constants SOLID, DOTTED, DASHED and DOUBLE.
+
+Write a method that takes the constant of LineType type as input, and returns the message “The line is <LineType> type”.
+
+Where <LineType>  is name of type wrote in lower case.
+
+For example: The line is dotted type.
 ############ Task 5 ############
+Create ClientType enum that contains NEW, SILVER, GOLD and PLATINUM constants that represent client status.
+
+For storing count of months for each client create private "months" field of type int and initialize it using constructor with int parameter.
+
+Set for each item of enum a value according to next table:
+<pre>
+Client status                                                   Count of months
+
+    NEW                                                              1
+
+    SILVER                                                          12
+
+    GOLD                                                            30
+
+    PLATINUM                                                        60
+<pre/>
 ############ Task 6 ############
