@@ -68,6 +68,33 @@ Create public inner class named Iterator inside NameList class that correspond t
 </code>
 </pre>
 ############ Task 3 ############
+<pre>
+<code>
+Suppose we have execute method with next signature:
+
+public static double execute(int a, int b, Strategy strategy){
+
+    double result = strategy.doOperation(a,b);
+    
+    System.out.println(result);
+    
+    return result;
+}
+where the Stategy is the next interface:
+
+interface Strategy{
+
+    double doOperation(int a,int b);
+    
+}
+</code>
+Using anonymous classes concept, call the execute method 4 times with different strategy (override method doOperation from Strategy interface):
+
+Add a to b   \\   (a + b)
+Subtract b from a   \\   (a - b)
+Multiply a by b   \\   (a * b)
+Divide a by b   \\   (a / b)
+</pre>
 ############ Task 4 ############
 ############ Task 5 ############
 ############ Task 6 ############
