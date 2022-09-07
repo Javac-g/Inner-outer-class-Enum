@@ -109,6 +109,8 @@ Write a method that takes the constant of LineType type as input, and returns th
 Where <LineType>  is name of type wrote in lower case.
 
 For example: The line is dotted type.
+ 
+ 
 ############ Task 5 ############
  
  
