@@ -1,4 +1,4 @@
-# -Javac-g-Inner-outer-class.-Enum-
+# -Inner-outer-class.-Enum-
 Practice tasks.
 
 ############ Task 1 ############
