@@ -119,5 +119,21 @@ Client status                                                   Count of months
     GOLD                                                            30
 
     PLATINUM                                                        60
+    
 <pre/>
+Create public method named “discount()” that return discount value as coefficient from 1.0 to 0.0 according to client status.
+
+By default discount() method should return value 1.0 of double type.
+
+Override discount() method for each constant and return discount value that calculated by next formula:
+
+<pre>
+       Client status                                Formula
+
+            NEW                                   Default value
+           SILVER                                (100 - <count of months> * 0,25) / 100
+           GOLD                                  (100 - <count of months> * 0,3) / 100
+          PLATINUM                               (100 - <count of months> * 0,35) / 100
+
+</pre>
 ############ Task 6 ############
