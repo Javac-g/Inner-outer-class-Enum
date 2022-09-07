@@ -44,6 +44,8 @@ Create public static inner class named PizzaBuilder inside Pizza class that corr
 
 </pre>
 ############ Task 2 ############
+
+
 <pre>
 Suppose we have the next class:
 
@@ -68,6 +70,8 @@ Create public inner class named Iterator inside NameList class that correspond t
 </code>
 </pre>
 ############ Task 3 ############
+
+
 <pre>
 <code>
 Suppose we have execute method with next signature:
@@ -96,6 +100,8 @@ Multiply a by b   \\   (a * b)
 Divide a by b   \\   (a / b)
 </pre>
 ############ Task 4 ############
+
+
 Create a LineType enum that contains different kind of lines as constants SOLID, DOTTED, DASHED and DOUBLE.
 
 Write a method that takes the constant of LineType type as input, and returns the message “The line is <LineType> type”.
@@ -104,6 +110,8 @@ Where <LineType>  is name of type wrote in lower case.
 
 For example: The line is dotted type.
 ############ Task 5 ############
+ 
+ 
 Create ClientType enum that contains NEW, SILVER, GOLD and PLATINUM constants that represent client status.
 
 For storing count of months for each client create private "months" field of type int and initialize it using constructor with int parameter.
@@ -137,6 +145,8 @@ Override discount() method for each constant and return discount value that calc
 
 </pre>
 ############ Task 6 ############
+
+
 Create class hierarchy that represent Address Book, where can be save records in format: "(first name, last name) => address":
 
 Records in the Addres Book should be represented as objects of the NameAddressPair type.
