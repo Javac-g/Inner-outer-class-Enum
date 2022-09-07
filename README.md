@@ -2,8 +2,9 @@
 Practice tasks.
 
 ############ Task 1 ############
-Suppose we have the next class:
+ 
 <pre>
+Suppose we have the next class:
 <code>
 public class Pizza{
     
@@ -53,11 +54,13 @@ class NameList{
 }
 </code>
 Create public inner class named Iterator inside NameList class that correspond the next class diagram:
+<code>
                   Iterator
 - counter: int = 0
 - Iterator()
 + hasNext():boolean //returns true if the next element exist in the list,otherwise returns false
 + next(): String //return current element and add 1 to counter
+</code>
 </pre>
 ############ Task 3 ############
 ############ Task 4 ############
