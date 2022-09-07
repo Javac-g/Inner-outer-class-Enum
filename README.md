@@ -120,14 +120,14 @@ Client status                                                   Count of months
 
     PLATINUM                                                        60
     
-<pre/>
+
 Create public method named “discount()” that return discount value as coefficient from 1.0 to 0.0 according to client status.
 
 By default discount() method should return value 1.0 of double type.
 
 Override discount() method for each constant and return discount value that calculated by next formula:
 
-<pre>
+
        Client status                                Formula
 
             NEW                                   Default value
@@ -137,3 +137,15 @@ Override discount() method for each constant and return discount value that calc
 
 </pre>
 ############ Task 6 ############
+Create class hierarchy that represent Address Book, where can be save records in format: "(first name, last name) => address":
+
+Records in the Addres Book should be represented as objects of the NameAddressPair type.
+The pair "(first name, last name)" is key for access to "address" in the Address Book.
+The key "(first name, last name)" should be immuteble and in Address Book cannot be two records with same key.
+The capacity of Address Book must grow twice when has no place for save the next record.
+The sortedBy(...) method should sorted records by ascending or descending using for this Arrays.sort(...) method.
+The Comparator should be implemented as an anonymous class.
+Sorting at first be by firstName field, and if the names match then by lastName field.
+The next() method from AddressBookIterator class should return record as String in next format: "First name: <first name>, Last name: <last name>, Address: <address>".
+Records in the Address Book must be ordered according to date of creation.
+A class hierarchy should be correspond the next class diagram:
